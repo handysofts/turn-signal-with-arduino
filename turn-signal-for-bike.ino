@@ -1,6 +1,8 @@
 /*
    LED Matrix Sprite Generator: http://embed.plnkr.co/3VUsekP3jC5xwSIQDVHx/preview
    LedControl lib: https://github.com/wayoda/LedControl
+
+   Schema can be viewed at https://www.tinkercad.com/things/crQYEKlflZ1-turn-signal-for-bike/editel
 */
 #include <LedControl.h>
 
@@ -8,8 +10,8 @@ const int arrowMarqueStepsCount = 16;
 bool isTurningLeft = false;
 bool isTurningRight = false;
 
-const int lefTurnButtonPin = 5;
-const int rightTurnButtonPin = 6;
+const int lefTurnButtonPin = 4;
+const int rightTurnButtonPin = 5;
 
 const int buzzerPin = 3;
 
